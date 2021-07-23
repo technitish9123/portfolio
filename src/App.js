@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Home from './views/Home';
+import { makeStyles } from '@material-ui/core';
+import { CssBaseline } from '@material-ui/core';
+import Footer from './components/Footer'
+
+const useStyles= makeStyles((theme) =>({
+root :{
+    fontFamily:"Manrope",
+    background:"#00071c",
+    minHeight:"100vh",
+    backgroundColor:"#00071c",
+},
+
+}));
 
 function App() {
+  const classes=useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router>
+      <Switch>
+      <div className={classes.root}>
+          <CssBaseline />
+        <Header />
+        <Route exact path="/" component={Home} />
+       
+        </div>
+      </Switch>
+
+   </Router>
   );
 }
 
