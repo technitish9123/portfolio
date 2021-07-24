@@ -9,10 +9,9 @@ export default function ProfileCard(){
             About me
           </h1>
           <p class="mb-8 text-lg leading-relaxed text-gray-400">Hello! My name is Nitish kumar || Mr. OOPPS and I enjoy creating things that live
-            on the internet. My interest in web development started back in 2017
-            when I decided to try editing custom Wordpress themes — turns out
-            hacking together p custom reblog button taught me a lot about HTML 
-            CSS!</p>
+            on the internet. My interest in web development & Cyber Security. It started back in 2017
+            when I decided to try making library webapp for my school — turns out
+            hacking together p custom Application taught me a lot about Web Development!!</p>
             <div class="flex flex-col p-5">
                 <h2 class="title-font font-semibold text-white tracking-wider text-lg mb-3"> 
                 Few Technologies I've been working with recently

@@ -65,6 +65,7 @@ return(
         > 
             <h1 className="text-white text-4xl sm:text-6xl font-semibold tracking-wide">
                     <h3 className="text-lg text-teal leading-loose">Hi, I'm Nitish kumar </h3>
+                    <span className="leading-snug">A <span className="hover:text-teal">CyberSecurity</span> Enthusiast,</span> <br />
                   <span className="leading-snug"> I build Things for Web</span> <br />
                   <span className="text-grey-500 leading-tight"> Currently Building
                   <span id="devColony" className="hover:text-teal"> Dev Colony </span>  

@@ -29,8 +29,8 @@ export const projects=[{
   githubLink: "https://github.com/technitish9123/",
 },
 {
-    name:"Pokemon-DB",
-    desc:" Consequat deserunt Lorem fugiat adipisicing. Nisi nostrud incididunt laboris sit exercitation nulla commodo cillum consectetur sint. Amet duis eu Lorem reprehenderit adipisicing tempor aliquip eu.",
+    name:"E-Commerce Website",
+    desc:" UNDER DEVELOPMENT !!! Consequat deserunt Lorem fugiat adipisicing. Nisi nostrud incididunt laboris sit exercitation nulla commodo cillum consectetur sint. Amet duis eu Lorem reprehenderit adipisicing tempor aliquip eu.",
     image:
     "https://ibb.co/Xs3J53L",
   techStack: "React js, Tailwind, Firebase",

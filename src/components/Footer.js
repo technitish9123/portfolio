@@ -11,7 +11,7 @@ export default function footer(){
             <footer class="text-grey-400 body-font">
                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <p class="text-sm text-gray-200 sm:border-gray-500 sm:mt-0 mt-4 hover:text-teal">
-                         Designed  build by
+                         Designed & build by
                         <a  class="ml-1"
                             target="_blank"
                             rel="noopener noreferrer" href="www.twitter.com">@technitish</a>
