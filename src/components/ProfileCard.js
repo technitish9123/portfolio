@@ -1,4 +1,3 @@
-import react from "react";
 
 export default function ProfileCard(){
 
@@ -14,7 +13,7 @@ export default function ProfileCard(){
             when I decided to try editing custom Wordpress themes — turns out
             hacking together p custom reblog button taught me a lot about HTML 
             CSS!</p>
-            <div class="flex flex-col">
+            <div class="flex flex-col p-5">
                 <h2 class="title-font font-semibold text-white tracking-wider text-lg mb-3"> 
                 Few Technologies I've been working with recently
                 </h2>
@@ -41,7 +40,7 @@ export default function ProfileCard(){
 
             </div>
             </div>
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
                     <img class="object-cover object-center rounded" alt="hero"src="https://avatars.githubusercontent.com/u/48184322?v=4"></img>
                 </div>
             </div>

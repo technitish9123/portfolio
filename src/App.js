@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
 import Home from './views/Home';
 import { makeStyles } from '@material-ui/core';
 import { CssBaseline } from '@material-ui/core';
@@ -26,7 +25,7 @@ function App() {
           <CssBaseline />
         <Header />
         <Route exact path="/" component={Home} />
-       
+       <Footer />
         </div>
       </Switch>
 
