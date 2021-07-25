@@ -1,3 +1,7 @@
+export const myEmail="kumarnitish12553@gmail.com";
+
+
+
 export const featuredProject=[{
     name:"NFT-Canvas-art",
     desc:" Consequat deserunt Lorem fugiat adipisicing. Nisi nostrud incididunt laboris sit exercitation nulla commodo cillum consectetur sint. Amet duis eu Lorem reprehenderit adipisicing tempor aliquip eu.",
@@ -37,5 +41,27 @@ export const projects=[{
   demo: "",
   githubLink: "https://github.com/technitish9123/",
 },
+{
+  name:"!!!!!!",
+  desc:" UNDER CONSTRUCTION",
+  image:
+  "",
+techStack: "",
+demo: "",
+githubLink: "",
+},
 ];
 
+export const achievements=[{
+        name:"NCIIPC - RDVP",
+        desc:" NCIIPC runs Responsible Vulnerability Disclosure Program (RVDP) for reporting any Vulnerability in Critical Information Infrastructures that may cause unauthorized access, modification, use, disclosure, disruption, incapacitation or distraction of the same.",
+        image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        
+},
+{
+  name:"PayU HoF",
+  desc:" found P4 category vulnerability(10 Points - Bugcrowd)",
+  image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+  
+},
+];
